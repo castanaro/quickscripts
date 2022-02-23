@@ -45,4 +45,5 @@ alive=$(wc -l /opt/osint/recon/alive.txt | cut -d " " -f 1)
 printf "\n"
 echo "Identified $alive live domains"
 printf "\n"
+
 echo "Done. Happy testing!"
