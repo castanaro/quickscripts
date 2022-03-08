@@ -1,6 +1,6 @@
 ## About
 
-This is a repository of tools/scripts that I find useful during penetration tests to help automate tasks
+A repository of tools/scripts that I find useful during penetration tests to help automate tasks
 
 ## Usage
 
