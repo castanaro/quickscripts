@@ -4,19 +4,19 @@ A repository of tools/scripts that I find useful during penetration tests to hel
 
 ## Usage
 
-### Spelunker
+### SPELUNKER.SH
 ./spelunker.sh [target domain]
 
 spelunker.sh uses assetfinder (https://github.com/tomnomnom/assetfinder) and httprobe (https://github.com/tomnomnom/httprobe) to scan for live subdomains for a target domain.
 
 Please download those tools before running spelunker.sh.
 
-### Livehosts
+### LIVEHOSTS.SH
 
 ./livehosts.sh [targets file]
 
 Please name the target input file as "targets"
 
-### SMBMap Nested For Loop
+### SMBMAP NESTED FOR LOOP
 
 This script takes a username and password from a list and enumerates the shares (provided within another list) they can access on a supplied domain.
