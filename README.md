@@ -19,4 +19,4 @@ Please name the target input file as "targets"
 
 ### SMBLOOP
 
-This script takes a username and password from a list and enumerates the shares (provided within another list) they can access on a supplied domain.
+This command takes a username and password from a list and enumerates the shares (provided within another list) they can access on a supplied domain.
