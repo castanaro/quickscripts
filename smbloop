@@ -1,0 +1,6 @@
+for i j in $(cat valid-domain-users); for k in $(cat ../scans/poc-445.txt); do echo "enumerating shares for user" $i && smbmap -u $i -p $j -d [DOMAIN] -H $k ;done
+
+
+
+
+

@@ -1,1 +1,0 @@
-# for a b in $(cat valid-domain-users); for c in $(cat ../scans/poc-445.txt); do smbmap -u $a -p $b -d [DOMAIN] -H $c; done
