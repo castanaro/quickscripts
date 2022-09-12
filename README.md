@@ -15,8 +15,16 @@ Please download those tools before running spelunker.sh.
 
 ./livehosts.sh [targets file]
 
-Please name the target input file as "targets"
+Please name the target input file as "targets" which includes scope.
+
+### SCAN.SH
+
+./scan.sh [targets file]
+
+Please name the target input file as "targets" which includes scope. Similar to livehosts.sh, scan.sh identifies live hosts on the network and then attempts an nmap scan for specified ports on those hosts.
 
 ### SMBLOOP
 
 This command takes a username and password from a list and enumerates the shares (provided within another list) they can access on a supplied domain.
+
+
