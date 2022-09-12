@@ -4,8 +4,8 @@ A repository of tools/scripts that I find useful during penetration tests to hel
 
 ## Usage
 
-### SPELUNKER.SH
-./spelunker.sh [target domain]
+### SUBHUNT.SH
+./subhunt.sh [target domain]
 
 spelunker.sh uses assetfinder (https://github.com/tomnomnom/assetfinder) and httprobe (https://github.com/tomnomnom/httprobe) to scan for live subdomains for a target domain.
 
