@@ -30,6 +30,6 @@ cat $pth/pingsweepUDP.gnmap | grep Up | cut -d ' ' -f 2 >> $pth/live
 cat $pth/live | sort | uniq > $pth/livehosts
 hosts=`wc -l $pth/livehosts`
 echo -e "\n---- HOST DISCOVERY COMPLETE on `date`----\n\n"
-echo -e "---- BEGINNING TOP 50(0) PORT SCAN ON $hosts TARGETS ----\n"
+echo -e "---- BEGINNING TOP 50(0) PORT SCAN ON $hosts LIVEHOSTS ----\n"
 nmap -Pn -A -sC -vvv --top-ports 50 -oA top50 -iL $pth/livehosts
 echo -e "\n---- FINISHED on `date`----\n\n"
