@@ -39,7 +39,7 @@ else:
 
     for i in hold:
         for p in hold2:
-            if i in IPNetwork(str(p)):
+            if i in IPNetwork(p):
                 print(i)
             else:
                 continue
