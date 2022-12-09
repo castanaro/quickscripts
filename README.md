@@ -27,4 +27,9 @@ Please name the target input file as "targets" which includes scope. Similar to 
 
 This command takes a username and password from a list and enumerates the shares (provided within another list) they can access on a supplied domain.
 
+### IPRANGECHECKER.PY
 
+python3 ipRangeChecker.py ranges.txt cidrs.txt
+python3 ipRangeChecker.py ranges.txt 192.168.10.0/24
+
+This script takes a file containing IP addresses and determines if they are in range of a supplied single CIDR range or file containing multiple CIDR ranges.
