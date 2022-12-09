@@ -35,8 +35,6 @@ else:
 
     t.close()
 
-    print(hold2)
-
     for i in hold:
         for p in hold2:
             if i in IPNetwork(p):
